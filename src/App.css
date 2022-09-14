@@ -1,38 +1,334 @@
-.App {
-  text-align: center;
+/* Navigation section */
+.logo {
+  width: 70px;
+  margin: 10px auto 0 15px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  position: relative;
+  background-color: #ffffff;
+  top: 25px;
+  width: 95%;
+  margin: auto;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px 2px rgba(20, 19, 19, 0.25);
+}
+.menu ul li {
+  display: inline-block;
+  padding-right: 10px;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333333;
+  margin: 5px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+button {
+  background-color: #43dde6;
+  border: none;
+  padding: 7px 13px;
+  border-radius: 30px;
+}
+.container {
+  position: relative;
+  width: 95%;
+  font-family: 'Lato';
+  margin: 50px auto;
+}
+.home {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+/* Home section */
+.content {
+  flex: 1;
+  padding: 30px;
+}
+.content h1 {
+  color: #364f6b;
+  font-family: Lato;
+  font-size: 64px;
+  margin: 20px 0;
+}
+.content p {
+  font-size: 16px;
+  font-family: Lato;
+  margin: 30px auto;
+  line-height: 25px;
+}
+.content button {
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.img-box img {
+  margin-right: 30px;
+  width: 580px;
+}
+
+/* Companies Section */
+.company-container {
+  background-color: #364f6b;
+  color: #ffffff;
+  border-radius: 15px;
+  margin: 50px 30px;
+  padding: 40px;
+}
+.trus-comp .header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.box {
+  /* border: 2px solid black; */
+  background-color: white;
+  width: 200px;
+  height: 3px;
+  border-radius: 50px;
+  margin: auto 35px;
+  font-family: "Lato", sans-serif;
+}
+hr {
+  margin: 20px 0;
+}
+.services-container .data {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  margin: 40px auto;
+}
+.services-container .data h1 {
+  flex: 1;
+  font-size: 72px;
+}
+.services-container .data p {
+  float: right;
+  flex: 1;
+  text-align: justify;
+  line-height: 30px;
+}
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.services .child {
+  width: 300px;
+  font-family: Lato;
+}
+#line {
+  margin: auto 10px;
+}
+
+.partition {
+  background-color: white;
+  width: 95%;
+  height: 3px;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+
+.services .child img {
+  margin: 40px 0;
+}
+
+.slick-slide img {
+  display: block;
+  width: 20%;
+  margin: auto;
+}
+
+/*  Work Section */
+.work-section {
+  text-align: center;
+  font-family: Poppins;
+}
+.work-section h1 {
+  color: #364f6b;
+  margin: 40px;
+  font-size: 64px;
+}
+.work-container {
+  display: flex;
+}
+.work {
+  box-shadow: 2px 3px 3px 2px rgba(20, 19, 19, 0.25);
+  border-radius: 10px;
+
+  margin: 10px;
+}
+.work .brown {
+  border-radius: 10px 10px 0px 0px;
+  height: 400px;
+
+  background: rgba(48, 48, 48, 0.5);
+}
+.work .desc {
+  padding-top: 10px;
+  height: 140px;
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  padding-right: 20px;
+}
+.work img {
+  width: 50px;
+}
+.work-section button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+
+/* Footer */
+.footer-container {
+  background-color: #364f6b;
+  border-radius: 15px 15px 0 0;
+  margin: 40px 20px -50px;
+  padding: 30px 40px 10px;
+  font-family: Poppins;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.footer-container .box-1 {
+  display: flex;
+}
+.footer-container .box-1 > div {
+  flex: 1;
+  font-size: 12px;
+}
+.footer-container .box-1 h1 {
+  flex: 1;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.footer-container .box-1 > div > button {
+  padding: 10px 30px;
+  margin: 20px auto;
+}
+.footer-container .box-2 {
+  display: flex;
+  font-size: 10px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+.footer-container .box-2 .social-media {
+  margin-right: 50px;
+}
+.footer-container .box-2 div {
+  margin: 5px;
+}
+.footer-container .box-2 div h5 {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.footer-container img {
+  width: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.footer-container #logo {
+  width: 80px;
+}
+.footer-container .allmedia img {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+.footer-container .line {
+  height: 1px;
+  margin: auto;
+  background-color: white;
+}
+.footer-container .footer-note {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Contact Form */
+.contact {
+  display: flex;
+  color: white;
+  font-family: poppins;
+  justify-content: space-between;
+}
+.contact-title {
+  margin: 30px 0;
+  font-size: 50px;
+  color: #364f6b;
+  font-weight: 500;
+}
+.contact .box1 {
+  background-color: #364f6b;
+  font-size: 15px;
+  flex: 1;
+  padding: 30px;
+  border-radius: 20px;
+}
+.contact form h1 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.contact form p {
+  margin: 20px auto;
+}
+.contact .emailAndPhone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact input,
+.contact textarea {
+  margin: 8px 0 20px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #333333;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+.contact form button {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 40px;
+}
+.emailAndPhone div {
+  width: 48%;
+}
+.contact .box2 {
+  color: black;
+  flex: 1;
+  padding: 50px;
+}
+.contact .box2 .soical-icons img {
+  background-color: #43dde6;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.contact .box2 .division {
+  height: 2px;
+  width: 70%;
+  margin: 40px 0;
+  background-color: #333333;
+}
+.box2 div h1 {
+  margin-bottom: 15px;
+  font-weight: 400;
 }

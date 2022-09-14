@@ -1,0 +1,98 @@
+/* *Responsive */
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+  .img-box img {
+    width: 400px;
+  }
+  .content h1 {
+    font-size: 44px;
+    margin: 10px 0;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  ul li a {
+    margin: 2px;
+    font-size: 15px;
+  }
+  .home {
+    flex-direction: column;
+    text-align: justify;
+  }
+  .img-box img {
+    width: 310px;
+    margin: auto;
+  }
+
+  nav button {
+    display: none;
+  }
+  .content h1 {
+    font-size: 44px;
+    margin: 10px 0;
+  }
+  .logo img {
+    width: 60px;
+  }
+
+  .slick-slide img {
+    width: 60%;
+  }
+  .services-container .data {
+    margin: 40px auto;
+    flex-direction: column;
+  }
+  .services-container .data h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .services {
+    flex-direction: column;
+  }
+  #line {
+    transform: rotate(90deg);
+    height: 200px;
+    margin: -65px;
+  }
+  .services .child {
+    text-align: center;
+  }
+  .services .child img {
+    margin: 20px 0;
+  }
+  .services .child h1 {
+    margin: 10px;
+  }
+  .content {
+    text-align: center;
+  }
+  .work-container {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  .work-section h1 {
+    margin: 40px auto 20px;
+    font-size: 36px;
+  }
+  .work .brown {
+    height: 300px;
+  }
+  .footer-container .box-1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .emailAndPhone div {
+    width: 100%;
+  }
+  .contact-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .contact .box2 .division {
+    width: 100%;
+  }
+}
